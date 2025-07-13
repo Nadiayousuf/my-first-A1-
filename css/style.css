@@ -11,3 +11,254 @@ ul,ol{
 a{
     text-decoration: none;
 }
+.container{
+    width:1110px ;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn{
+    background-color: #4E47FF;
+    padding: 12px 30px ;
+    border-radius: 5%;
+    color: #ffffff;
+    font-family:"Raleway", sans-serif ;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    border: none;
+}
+ .heading_p {
+    font-family:"Raleway", sans-serif ; 
+    font-weight: 800;
+    font-size: 42px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.logo{
+    font-family: "Inter", sans-serif;
+    color:#4E47FF;
+}
+   
+/* nav section start  */
+
+#main {
+    background-color: #D6DDED;
+}
+
+#head{
+    background-image: url(../images/backgroundimage.png);
+}
+
+#navbar .logo{
+    font-size: 34px;
+    font-weight: 900;
+}
+#navbar .row{
+    justify-content: space-between;
+}
+ #head .nav_content {
+    text-align: center;
+ }
+ #head .nav_content p {
+    font-family:"Raleway", sans-serif ;
+    font-size: 65px;
+    font-weight: 800;
+    color: #252432;
+    margin-top: 158px;
+    margin-bottom: 37px;
+    
+}
+
+#head .nav_content button {
+    margin-bottom: 152px;
+}
+
+
+/* nav section end */
+
+/* action section start  */
+#action{
+    padding: 116px;
+}
+
+#action .action_content p{
+    font-family:"Raleway", sans-serif ;
+    font-size: 24px; 
+    font-weight: 400;
+    color: #252432;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+#action .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* action section ends */
+
+/* user info section start  */
+#user {
+   text-align: center;
+}
+#user .heading_p {
+    padding-top: 50px;
+}
+#user .container{
+    background-color: #D7D6FF;
+    border-radius: 10%;
+}
+#user .user_card{
+    display: inline-block;
+    gap: 40px 0;
+    padding: 27px;
+   
+}
+#user .user_card h2{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 800px;
+    color: #4E47FF;;
+}
+#user .user_card p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#user .heading_p{
+   padding-top: 50px;
+}
+/* user info section ends */
+
+/* user feedback section start  */
+#feedback {
+    margin-top: 107px;
+    text-align: center;
+}
+#feedback .user_feedback {
+    justify-content: space-around;
+    display: inline-block;
+    padding: 30px;
+    text-align: left;
+    border-radius: 20px;
+    background: #D6DDED;
+    box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+   
+}
+#feedback .user_feedback h5{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+#feedback .user_feedback p{
+    font-family:"Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+#feedback .avatar_title {
+    display: flex;
+    display: inline-block;
+
+    
+}
+
+/* user feedback section ends */
+
+/* focus section start */
+#focus {
+    padding: 125px;
+}
+#focus .container{
+    background-color: #FFFFFF;
+    border-radius: 5%;
+}
+#focus .focus_content {
+   text-align: center;
+   
+}
+
+#focus .focus_content p{
+    font-family: "Raleway", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+#focus .focus_content a{
+    margin-top: 20px;
+    display: inline-block;
+    text-align:center ;
+}
+/* focus section ends */
+
+/* form section start  */
+
+#forma{
+    padding: 123px;
+}
+#forma .row {
+    justify-content: space-between;
+}
+#forma .form_content p {
+    font-family: "Raleway", sans-serif;
+    font-size: 98px;
+    font-weight: 800;
+    color: #000000;
+    text-align: left;
+}
+
+
+#forma .form_log input{
+    height: 70px;
+    border-radius: 5%;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+#forma .form_log .txt{
+    text-align: center;
+    padding: 10px 20px;
+   
+}
+#forma .form_log .lbl {
+    text-align: center;
+}
+    
+/* form section ends */
+
+/* footer section start  */
+
+#footer {
+    padding: 104px;
+}
+#footer .footer_content {
+    text-align: center;
+}
+#footer .logo{
+    font-size: 100px;
+    font-weight: 900;
+}
+#footer .footer_list{
+   display: inline-block;
+   
+}
+#footer .footer_content p{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-family: 400;
+}
+#footer .footer_list ul li{
+    padding: 20px 48px ;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    font-family: 400;
+}
+
+/* footer section ends */
